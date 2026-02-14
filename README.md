@@ -30,3 +30,20 @@ as a reusable and container-friendly data pipeline.
 ## ▶ Example Usage
 ```bash
 python county_link.py --bbox -118.60 35.55 -118.35 35.75 --buffer "2 km"
+---
+
+## 📊 Example Output
+
+Running the pipeline generates structured spatial datasets linking
+waterbodies, counties, and dam infrastructure within a selected
+area of interest.
+
+Typical outputs include:
+
+- Linked waterbody–county datasets (CSV)
+- Dam proximity analysis tables
+- GeoPackage (.gpkg) layers for GIS visualization
+- Metadata logs describing query results
+
+These outputs are designed for downstream analysis, mapping, and
+decision-support workflows.
